@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const Name='Thilag';
+const Name='Thilaga';
 const Batch='FSD56WE-Tamil';
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>UserName: {Name}</h2>
-      <h2>Batch: {Batch}</h2>
+      <h3>UserName: {Name}</h3>
+      <h3>Batch: {Batch}</h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
